@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.wrap1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/01_01.png);
+    background-position: center;
+    background-size: cover;
+}
+.fr_set{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 1362px;
+    height: 923px;
+    z-index: 0;
+    
+}
+.fr01{
+    width: 140px;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 25px;
+}
+.fr02{
+    width: 293px;
+    height: 250px;
+    position: absolute;
+    left: 288px;
+    z-index: 2;
+    top: 207px;
+    
+}
+.fr03{
+    width: 606px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 910px;
+    top: 180px;
+    
+}
+/*--네비게이션--*/
+nav{width: 100%;height: 150px;padding-top: 36px;}
+ul{margin: 0 auto; display: flex;justify-content: space-between;background-image: url(img/mb.png);width: 1100px;height:68px ;}
+li{border: 0px solid red;}
+.bt01{}
+.bt02{}
+.bt03{}
+.bt04{}
+
+/*--sub01--*/
+
+.s_b00{width: 100%;}
+.s_b01{height: 600px; background-image: url(img/s01_01.png);}
+.s_b02{height: 1365px; padding-top: 200px; text-align: center;}
+.s_b03{height: 888px; background-image: url('img/s01_02.png');}
+.s_b04{height: 1198px;padding-top: 200px; text-align: center;}
+
+
+.s_ft{width: 100%; height: 200px;text-align: center;}
+
+/*--sub02--*/
+
+.s_b200{width: 100%;}
+.s_b201{height: 600px; background-image: url(img/s02_01.png);}
+
+.s_b202{height: 950px; padding-top: 200px; text-align: center;}
+.s_b203{height: 1254px; padding-top: 200px ; text-align: center;}
+.s_b204{height: 1198px;padding-top: 200px; text-align: center;}
+.s_b205{height: 795px;padding-top: 200px; text-align: center;}
+.s_b206{height: 730px;padding-top: 200px; text-align: center;}
+
+.s_ft{width: 100%; height: 200px;text-align: center;padding-top: 200px;}
+
+/*--sub03--*/
+
+.s_b300{width: 100%;}
+.s_b301{height: 600px; background-image: url(img/s03_01.png);}
+
+.s_b302{height: 280px; padding-top: 200px; text-align: center;}
+.s_b303{height: 250px; padding-top: 200px ; text-align: center;background-image: url(img/s03_03.png);}
+.s_b304{height: 475px; padding-top: 200px; text-align: center;}
+.s_b305{height: 900px; padding-top: 200px; text-align: center;background-image: url(img/s03_05.png);}
+.s_b306{height: 1019px;padding-top: 200px; text-align: center;}
+.s_b307{height: 250px;padding-top: 200px;text-align: center;background-image: url(img/s03_07.png);}
+
+.s_ft{width: 100%; height: }
